@@ -1,0 +1,71 @@
+![Quiz Logo](https://res.cloudinary.com/dqoovwhgm/image/upload/v1657760641/code_institute_first_project/slider/gallery/flags_challengo_logo_rdm_yqgms5.png)
+
+
+# What is this quiz about : 
+
+This is a simple Quiz in which the user answers questions about the national flags.
+
+
+![PageScrenshots](https://res.cloudinary.com/dqoovwhgm/image/upload/v1657760770/code_institute_first_project/slider/gallery/Screenshot_2022-07-14_at_03.05.53_hyfzfr.png)
+
+
+
+# Design : 
+Very simple designs. Logo in the middle and four buttons with answers to choose from. The same font as in the previous project was used.
+
+
+
+# Features :
+
+The project actually consists of two elements. Home page with a Start button that starts the Quiz and a set of questions with answers to choose from. The user is informed about the choice of the correct or wrong answer by the appropriate color of the button and the background - green for correct and red for wrong. The quiz does not have the function of counting good answers, this option will definitely be added at a later stage of the project development. The number of questions will also be increased and a timer will be added.
+
+![Questions](https://res.cloudinary.com/dqoovwhgm/image/upload/v1657790924/code_institute_first_project/slider/gallery/answers_jiru1u.jpg)
+![GoodAnswer](https://res.cloudinary.com/dqoovwhgm/image/upload/v1657790925/code_institute_first_project/slider/gallery/good_answer_b41pie.jpg)
+
+# Testing:
+
+All active links work as they should and lead to the right places. 
+Chrome Dev tool did not return any spcific errors. Quiz desgin is fully responsive.
+![Design](https://res.cloudinary.com/dqoovwhgm/image/upload/v1657792391/code_institute_first_project/slider/gallery/responsive_ha9gzv.jpg)
+
+
+* ## Validator Testing:
+
+
+### HTML :
+- 1 error wes returned when passing through the official [W3C validator](https://validator.w3.org/) 
+
+![W3CValidator](https://res.cloudinary.com/dqoovwhgm/image/upload/v1657793633/code_institute_first_project/slider/gallery/Screenshot_2022-07-14_at_12.13.15_qrp3rq.png)
+
+Hovewer the stray end tag could not be located in the code. 
+
+
+### Deployment :
+- Herolu used for deplyment
+
+# Unfixed Bugs :
+
+Project doesn't have any known Unfixed Bugs. The project however requires futher development. 
+Score counter should be added so user will have better experience by knowing the final correct and wrong answers. Also timee should be added so it will make the Quiz more challenging by prevents user from searching a proper answer in Google. To make the quiz fun more set of question should be also created. 
+
+# Credits :
+
+### Content :
+
+The question samples are taken from:
+[theguardian.com](https://www.theguardian.com/travel/quiz/2014/oct/10/quiz-flags-of-the-world) |
+
+The flasgs website was also used to develop the Quiz:
+[Countryflags](https://www.countryflags.com/europe/)
+
+In writing the code, countless video tutorials on YouTube were also used about Java Script and responsive CSS design. 
+
+The Gradient buttons CSS was copied partialy from:
+[GradientButtons](https://gradientbuttons.colorion.co/)
+
+### Media :
+
+Main logo and favicon was taken from :
+[Countryflags](https://www.countryflags.com/europe/)
+Graphic to logo was added in Photoshop by designer. 
+
