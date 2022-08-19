@@ -1,31 +1,70 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Lucas,
+## What is this quiz about : 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+This is a simple Quiz in which the user answers questions about the national flags.
 
-## Reminders
+[Here is life version of my project](https://myfirst-python-project.herokuapp.com/)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
 
-## Creating the Heroku app
+![PageScrenshots](https://res.cloudinary.com/dqoovwhgm/image/upload/v1660908438/code_institute_first_project/slider/Screenshot_2022-08-19_at_13.26.44_vi8cna.png)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Design : 
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+This quiz was writted in Python, no GUI provided.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
+## Features :
 
-## Constraints
+This is simply Python Quiz where user provides answer to question about national flags and at end the percentge of correct answers is calcluated. 
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+![Questions](https://res.cloudinary.com/dqoovwhgm/image/upload/v1660908646/code_institute_first_project/slider/Screenshot_2022-08-19_at_13.30.37_kejusw.png)
 
------
-Happy coding!
+
+## Testing:
+
+App was tested manually by developer. No bugs have been detected. 
+
+
+## Validator Testing:
+
+Python code was validated with PEP8 tool
+[PEP8Validator](http://pep8online.com/)
+
+![PEP8Validator](https://res.cloudinary.com/dqoovwhgm/image/upload/v1660910581/code_institute_first_project/slider/Screenshot_2022-08-19_at_13.24.52_dmjy7y.png)
+
+The validator found only line length errors in the code.
+
+
+## Deployment :
+
+![Heroku](https://www.heroku.com) was used for the app deployment. 
+Code Institite template used in GitHub. 
+ Steps for deployment:
+ - Clone this repository
+ - Create a new Heroku app 
+ - Add the buildbacks to Python and NodeJS 
+ - Link the Heroku app to the repository and click on manual deploy 
+
+
+## Unfixed Bugs and futher development: 
+
+Project doesn't have any known unfixed bugs. The project however requires futher development. 
+Timer should be added so it will make the Quiz more challenging by prevents user from searching a proper answer in Google. To make the quiz fun more set of question should be also created. Function that allows user to start the game again with another questions order must be implemented.  
+
+
+# Credits :
+
+The question samples are taken from:
+[theguardian.com](https://www.theguardian.com/travel/quiz/2014/oct/10/quiz-flags-of-the-world) |
+
+The flasgs website was also used to develop the Quiz:
+[Countryflags](https://www.countryflags.com/europe/)
+
+In writing the code video tutorials on YouTube were also used.
+
+
+### Media :
+
+No media used in this project.
+
