@@ -2,12 +2,12 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
-name = input("What's your name: ")
+name = input("What's your name: ") #user provide name
 print("Welcome", name, "to Flags of the World Quiz! ")
 quizStart = input("Are you ready to start" + name + "?" "[YES/NO]" )
 if quizStart.lower() == "yes":
     print("Okay! " + name + " so Let's start! ")
-    score = 0
+    score = 0 #quiz start with zero score
 else:
     print("Good bye!")
     quit()
@@ -15,7 +15,7 @@ else:
 answer = input("A red circle on a green background is a flag of? ") #1 question
 if answer.lower() == "bangladesh": 
     print('Correct!')
-    score += 1
+    score += 1 #every time user provide correct answer one point is added to final score
 else:
     print("Incorrect!")
 
@@ -29,15 +29,16 @@ else:
 
 
 answer = input("Which weapon will you find on the flag for Mozambique? ") #3 question
-if answer.lower() == "gun" or answer.lower() == "ak47" or answer.lower() == "kalashnikov" or answer.lower() == "rifle":
+if answer.lower() == "gun" or answer.lower() == "ak47" or answer.lower() == "kalashnikov" or answer.lower() == "rifle": 
+    #several possible correct answers when the answer ca be ambiguous
     print('Correct!')
     score += 1
 else:
     print("Incorrect!")
 
 
-answer = input("The Albanian flag features an eagle - but how many heads has it got? ") #4 question
-if answer.lower() == "2" or answer.lower() == "two":
+answer = input("On whose country flag is green cedar tree presented? ") #4 question
+if answer.lower() == "lebanon":
     print('Correct!')
     score += 1
 else:
@@ -45,7 +46,7 @@ else:
 
 
 answer = input("Which animal is biting a snake in the centre of the Mexican flag? ") #5 question
-if answer.lower() == "snake" or answer.lower() == "rattlesnake":
+if answer.lower() == "eagle" or answer.lower() == "mexican eagle":
     print('Correct!')
     score += 1
 else:
@@ -93,4 +94,4 @@ else:
 
 print("That was the last question, here you have a results:" )
 print(name, "you answered " + str(score) + " questions correct!")
-print(name, "you got " + str((score / 10) * 100) + "% score")
+print(name, "you got " + str((score / 10) * 100) + "% score") #this calculate percentage of correct responses
